@@ -30,6 +30,13 @@ All of them have methods that have to be called in main loop:
  - draw() # displays the item
 
 **class**
+Label(win, pos, size = (0,35), text = "hello")
+ - set_text(value) 
+ - get_text()
+ - set_text_height(value)
+ - get_text_height()
+
+**class**
 Button(win, pos, size=(120, 25), title="", color=(207, 159, 27), color_active=(62, 39, 214))
   - color_active *(int, int, int)* #color of pressed button
   All these attributes can be modified using methods set_<attribute_name>(value) and get_<attribute_name>()
